@@ -1,3 +1,3 @@
-var app = require('express')();
-var http = require('http').Server(app);
-var io = require('socket.io')(http);
+module.exports = (req, res) => {
+  res.end(`Hello from Node.js on Now 2.0!`);
+};
