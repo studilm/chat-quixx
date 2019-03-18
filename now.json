@@ -1,3 +1,8 @@
 {
-  "name": "chat-quixx"
+  "name": "chat-quixx",
+  "version": 2,
+  "public": true,
+  "builds": [
+    { "src": "index.js", "use": "@now/node" }
+  ]
 }
